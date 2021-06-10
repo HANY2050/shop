@@ -1,0 +1,144 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+.delete-btn{
+-webkit-appearance: none;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 10px;
+    color: red;
+    bottom: 5px;
+}
+
+.btn2{
+
+
+    float: right;
+
+}
+
+
+.edit-close{
+
+
+    font-size: 30px;
+
+    color: red;
+
+
+}
+.edit-unit{
+
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right:45px;
+    color: #06833f;
+    bottom: 5px;
+}
+
+.edit-All{
+
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right:45px;
+    color: #06833f;
+    bottom: 5px;
+}
+
+span.buttons-span{
+
+    position: absolute;
+    right: 15px;
+}
+
+span.buttons-span span:first-child {
+ margin-right: 10px;
+
+}
+span.buttons-span span:first-child a{
+
+
+    color: green;
+}
+
+span.buttons-span span:last-child a{
+
+    color: red;
+
+}
+
+.product-title-header{
+
+
+    color: #a46a1f;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.remove-option{
+
+    color: red;
+
+
+}
+
+a.activate-image-upload{
+display: block;
+
+
+
+}
+a.activate-image-upload:hover{
+
+
+
+
+}
+.image-card-upload img{
+
+max-height: 200px;
+
+}
+
+.image-card-upload .card-body i{
+
+   font-size: 6rem;
+    color: #00d9ff;
+
+}
+
+input.image-file-upload{
+
+display: none;
+
+
+}
+.img-thumbnail{
+
+    max-height: 200px;
+
+
+}
+a.remove-image-upload {
+
+    font-size: 2rem;
+    color: #dd0b0b;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 99999;
+    display: none;
+
+
+
+}
